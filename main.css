@@ -1,6 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Passion+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
 /* 
 
-primary: #000
+FONTS
+
+font-family: 'Passion One', cursive;
+
+
+COLORS
+
+primary: 
+
+black #000
+
 
 accent colors: 
 
@@ -10,11 +29,65 @@ red #DD0031
 
 white #FFFFFF
 
-
-
 */
+html {
+    font-size: 16px;
+}
 
 header {
     height: 85px;
-    background-color: #000
+    background-color: #000;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+}
+
+li {
+    display: inline;
+    margin: 0 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Passion One', cursive;
+    font-size: 1.2em;
+}
+
+/* CLASSES */
+
+.float-right {
+    float: right;
+}
+
+.logo {
+    position: relative;
+    top: 12px;
+}
+
+.new {
+    background-color: #fff;
+    height: 106px;
+}
+
+.new h1 {
+    position: relative;
+    top: 40px;
+    padding-left: 30px;
+}
+
+.pre-order {
+    background-color: #E1E1E2;
+    height: 67px;
+}
+
+.pre-order h1 {
+    font-size: 2em;
+    position: relative;
+    top: 20px;
+    padding-left: 30px;
 }
